@@ -1,0 +1,65 @@
+title:            Guy Raud dit Guiro
+tagline:          Sculpteur plasticien
+description:      Personnages en mouvement à la limite de la rupture, de la chute
+# Your site's domain goes here. Leave localhost server or blank when working locally.
+url:              
+
+# Owner/author information
+owner:
+  name:           Guy Raud dit Guiro
+  avatar:         bio-photo.jpg
+  bio:            "Guy Raud dit 'Guiro', créateur de mouvement Guiro nous parle d’élégance, de déséquilibre équilibré.Pour lui c’est avec l’acier et l’inox qu’il crée ses personnages pleins d'élégance, filiformes, toujours légers, toujours vibrants dans leur équilibre"
+  email:          guy.raud@gmail.com
+  # Social networking links are used in author-bio sidebar. Update and remove as you like.
+  # To register at HMFAYSAL SOCIAL, visit http://social.hmfaysal.tk
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   UA-44450907-3
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:        
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Actualites
+    url: /
+  - title: A propos
+    url: /about
+  - title: Articles
+    url: /articles
+  - title: Expositions
+    url: /expositions
+  - title: Collections
+    url: /photos
+  - title: Commandes Publiques
+    url: /order
+  - title: Contact
+    url: /contact
+
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Paris
+future:      true
+pygments:    true
+markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
