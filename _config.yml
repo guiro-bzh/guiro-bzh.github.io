@@ -36,7 +36,8 @@ links:
     url: /order
   - title: Contact
     url: /contact
-
+  - title: English
+   url: http://guiro.org
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Paris
